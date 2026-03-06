@@ -71,8 +71,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=ldcss_Quality-Gate-Hands-On
-            -Dsonar.organization=ldcss
+            -Dsonar.projectKey=paivalucass_Quality-Gate-Hands-On
+            -Dsonar.organization=paivalucass
             -Dsonar.sources=src
             -Dsonar.tests=src
             -Dsonar.test.inclusions=**/*.spec.ts
